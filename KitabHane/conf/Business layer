@@ -1,0 +1,4 @@
+Series has name,start date,content,poster, actors, directors, writers, IMDB rating -> later(imdbapi.com)
+Actor has name,series(diziler),picture
+
+

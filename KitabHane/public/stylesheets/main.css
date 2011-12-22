@@ -1,0 +1,160 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/* This removes the border around the viewport in old versions of IE */
+	width: 100%;
+	min-width: 600px;
+	/* Minimum width of layout - remove line if not required */
+	/* The min-width property does not work in old versions of Internet Explorer */
+}
+
+h4 {
+	font-size: 1.27em; /* ~14px */
+	font-weight: 800;
+	margin: 0 0 0 6px; /* ~6px 0 ~3px */
+}
+
+#wrapper {
+	width: 758px;
+	margin: auto; 
+}
+
+.release {
+	padding-top: 0px;
+	position: relative;
+	height: 150px;
+	border: 1px solid #000;
+}
+
+.release>ul {
+	margin-top: 0px;
+}
+
+.seriesTable {
+	display: table;
+	cellspacing: 0;
+	cellpadding: 0;
+	border-radius: 10px;
+	border: 1px solid #000;
+	height: 50px;
+	width: 140px;
+}
+
+.series_list img {
+	border-radius: 10px;
+	width: 40px;
+	Height: 40px;
+}
+
+.seriesTable {
+	border: 1px solid gray;
+	background-color: #444;
+	background-image: linear-gradient(bottom, rgb(201, 201, 201) 0%,
+		rgb(247, 247, 247) 56% );
+	background-image: -o-linear-gradient(bottom, rgb(201, 201, 201) 0%,
+		rgb(247, 247, 247) 56% );
+	background-image: -moz-linear-gradient(bottom, rgb(201, 201, 201) 0%,
+		rgb(247, 247, 247) 56% );
+	background-image: -webkit-linear-gradient(bottom, rgb(201, 201, 201) 0%,
+		rgb(247, 247, 247) 56% );
+	background-image: -ms-linear-gradient(bottom, rgb(201, 201, 201) 0%,
+		rgb(247, 247, 247) 56% );
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(201,
+		201, 201) ), color-stop(0.56, rgb(247, 247, 247) ) );
+	color: #444;
+}
+
+#popularSeries {
+	position: relative;
+	float: right;
+	top: 55px;
+	width: 20%;
+	border: 1px solid #000;
+}
+
+#upComingRelease>ul>li {
+	list-style: none;
+	float: left;
+	padding: 0 5px 5px 2px;
+}
+
+#upComingRelease>ul {
+	padding-left: 0px;
+}
+
+#newReleases ul {
+	padding-left: 0px;
+}
+
+#newReleases>ul>li {
+	list-style: none;
+	float: left;
+	padding: 0 5px 5px 2px;
+}
+
+#content {
+	position: absolute;
+	width: 79%;
+	border: 1px solid #000;
+	top: 55px;
+}
+
+#header {
+	height: 54px;
+	background: transparent url('/public/images/headerbg.png') repeat-x left
+		-67px;
+	z-index: 3;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	-webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+}
+
+#menu,#menu ul {
+	list-style: none;
+}
+
+#menu {
+	font-family: Kristi;
+	font-size: 15px;
+	float: left;
+}
+
+#menu>li {
+	float: left;
+	padding-top: 0em;
+}
+
+#menu li a {
+	display: block;
+	height: 2em;
+	line-height: 2em;
+	padding: 0 1.5em;
+	text-decoration: none;
+	height: 2em;
+}
+
+#menu ul {
+	position: absolute;
+	display: none;
+	z-index: 999;
+}
+
+#menu ul li a {
+	width: 80px;
+}
+
+/* Main menu
+------------------------------------------*/
+#menu>li>a {
+	color: black;
+	font-weight: bold;
+}
+
+#menu>li:hover>a {
+	color: white;
+}
