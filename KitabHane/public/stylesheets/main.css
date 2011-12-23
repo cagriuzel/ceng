@@ -9,6 +9,36 @@ body {
 	/* The min-width property does not work in old versions of Internet Explorer */
 }
 
+.arenas{
+	width:234px;
+	background-color:#fff;
+}
+
+.br{
+	border-radius: 5px 5px 5px 5px;
+}
+
+h1 {
+   	color: #000;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+a, td, body {
+    /* color: #FFFFFF; */
+    font-family: tahoma;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+img, a {
+    border: 0 none;
+    display: inline-block;
+    outline: medium none;
+}
+
+
 h4 {
 	font-size: 1.27em; /* ~14px */
 	font-weight: 800;
