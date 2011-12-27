@@ -22,7 +22,7 @@ import models.*;
 
 @With(FBSecure.class)
 public class Application extends FBController {
-//sema-laptop
+//laptop
 	public static final String SEARCH_URL = "http://services.tvrage.com/myfeeds/search.php?key=wO0oUUcze0VMpBWopBij&show=";
 	public static final String EPISODE_LIST = "http://services.tvrage.com/myfeeds/episode_list.php?key=wO0oUUcze0VMpBWopBij&sid=";
 
