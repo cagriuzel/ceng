@@ -4,7 +4,7 @@
 
 # Home page
 *        /                                      Application.index 
-POST     /series                                Application.series
+GET      /{name}                                Application.series
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
