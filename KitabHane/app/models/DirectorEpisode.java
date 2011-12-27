@@ -7,11 +7,13 @@ import javax.persistence.*;
 import java.util.*;
 
 @Entity
-public class Writer extends Model {
-
-	public String name;
-
-	public Writer() {
+public class DirectorEpisode extends Model {
+    
+	public Long directorID;
+	
+	public Long episodeID;
+	
+	public DirectorEpisode() {
 		// TODO Auto-generated constructor stub
 	}
 }

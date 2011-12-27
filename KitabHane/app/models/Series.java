@@ -5,6 +5,8 @@ import play.data.validation.Required;
 import play.db.jpa.*;
 
 import javax.persistence.*;
+
+import java.math.BigDecimal;
 import java.util.*;
 
 @Entity
@@ -30,6 +32,10 @@ public class Series extends Model {
 	public String smallBanner;
 	
 	public String status;
+	
+	public Float rating;
+	
+	public BigDecimal vote; 
 	
 	public Series(String seriesID,String name, Date startDate,Integer totalSeasons,Integer country) {
 		this.seriesID = seriesID;

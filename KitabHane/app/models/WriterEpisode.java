@@ -7,10 +7,10 @@ import javax.persistence.*;
 import java.util.*;
 
 @Entity
-public class Actor extends Model {
-    public String name;
+public class WriterEpisode extends Model {
+	
+	public Long writerID;
+	
+	public Long episodeID;
     
-    public Actor() {
-    	
-	}
 }
