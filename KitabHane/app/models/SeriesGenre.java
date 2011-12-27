@@ -7,11 +7,11 @@ import javax.persistence.*;
 import java.util.*;
 
 @Entity
-public class Director extends Model {
+public class SeriesGenre extends Model {
+	public Long SeriesID;
+	public Long GenreID;
 
-	public String name;
-
-	public Director() {
+	public SeriesGenre() {
 		// TODO Auto-generated constructor stub
 	}
 }

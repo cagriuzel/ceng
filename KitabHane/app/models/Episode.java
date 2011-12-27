@@ -11,17 +11,19 @@ public class Episode extends Model {
     
 	public String title;
     
-    public Integer number;
+    public Integer episodeNumber;
     
-    public String airDate;
+    public Date airDate;
     
-    public String rating;
+    public Float rating;
+    
+    public String screenCap;
     
     public Long seasonID;
     
-    public Episode(String title, Integer number, String airDate, String rating,Long seasonID) {
+    public Episode(String title, Integer number, Date airDate, Float rating,Long seasonID) {
     	this.title = title;
-    	this.number = number;
+    	this.episodeNumber = number;
     	this.airDate = airDate;
     	this.rating = rating;
     	this.seasonID = seasonID;

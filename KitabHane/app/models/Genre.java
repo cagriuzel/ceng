@@ -4,14 +4,15 @@ import play.*;
 import play.db.jpa.*;
 
 import javax.persistence.*;
+
 import java.util.*;
 
 @Entity
-public class Director extends Model {
+public class Genre extends Model {
+	@Column(unique = true)
+	public String genreName;
 
-	public String name;
-
-	public Director() {
+	public Genre() {
 		// TODO Auto-generated constructor stub
 	}
 }

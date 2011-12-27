@@ -14,26 +14,28 @@ public class Series extends Model {
 	
     public String name;
 	
-	public String startDate;
+	public Date startDate;
 	
+	public Date endDate;
+	
+	@Column(length=3000)
 	public String content;
 	
-	public Integer country;
+	public String country;
 	
 	public Integer totalSeasons;
 	
 	public String banner;
 	
-	public String genres;
+	public String smallBanner;
 	
 	public String status;
 	
-	public Series(String seriesID,String name, String startDate,Integer totalSeasons,String genres,Integer country) {
+	public Series(String seriesID,String name, Date startDate,Integer totalSeasons,Integer country) {
 		this.seriesID = seriesID;
 		this.name = name;
 		this.startDate = startDate;
 		this.totalSeasons = totalSeasons;
-		this.genres = genres;
 	}
 	
 		
