@@ -8,10 +8,11 @@ import java.util.*;
 
 @Entity
 public class SeriesGenre extends Model {
-	public Long SeriesID;
-	public Long GenreID;
+	public Long seriesID;
+	public Long genreID;
 
-	public SeriesGenre() {
-		// TODO Auto-generated constructor stub
+	public SeriesGenre(Long seriesID, Long genreID) {
+		this.seriesID = seriesID;
+		this.genreID = genreID;
 	}
 }

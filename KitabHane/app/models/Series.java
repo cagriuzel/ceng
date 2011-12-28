@@ -16,9 +16,9 @@ public class Series extends Model {
 	
     public String name;
 	
-	public Date startDate;
+	public Integer startDate;
 	
-	public Date endDate;
+	public Integer endDate;
 	
 	@Column(length=3000)
 	public String content;
@@ -37,11 +37,13 @@ public class Series extends Model {
 	
 	public BigDecimal vote; 
 	
-	public Series(String seriesID,String name, Date startDate,Integer totalSeasons,Integer country) {
+	public Series(String seriesID,String name, Integer startDate,Integer totalSeasons,String country,String status) {
 		this.seriesID = seriesID;
 		this.name = name;
 		this.startDate = startDate;
 		this.totalSeasons = totalSeasons;
+		this.country = country;
+		this.status = status;
 	}
 	
 		

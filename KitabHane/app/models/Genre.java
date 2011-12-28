@@ -12,7 +12,8 @@ public class Genre extends Model {
 	@Column(unique = true)
 	public String genreName;
 
-	public Genre() {
-		// TODO Auto-generated constructor stub
+	public Genre(String genreName) {
+		this.genreName = genreName;
 	}
+
 }
