@@ -9,6 +9,40 @@ body {
 	/* The min-width property does not work in old versions of Internet Explorer */
 }
 
+#series{
+	position: absolute;
+	top: 55px;
+}
+
+.arenas{
+	width:234px;
+	background-color:#fff;
+}
+
+.br{
+	border-radius: 5px 5px 5px 5px;
+}
+
+#seriesTable h1 {
+    color: #000;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+#seriesTable a,#seriesTable td{
+    color: #FFFFFF;
+    font-family: tahoma;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#seriesTable img,#seriesTable a {
+    border: 0 none;
+    display: inline-block;
+    outline: medium none;
+}
+
 h4 {
 	font-size: 1.27em; /* ~14px */
 	font-weight: 800;
